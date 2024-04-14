@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    
+
+
+    <style>
+      body {
+        background-color: black;
+        margin: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .centralizado{
+        text-align: center;
+        margin: center;
+        border: center;
+        padding: 75px;;
+      }
+      .redondo{
+        border-radius: 50px;
+        filter: drop-shadow(10px 0 30px #534c4c);
+        animation: example 1.5s infinite;
+        opacity: 1.5;
+      }
+      @keyframes example {
+        50% {
+          transform: translateY(-2%);
+        }
+      }
+    
+
+      
+
+    </style>
+    <body>
+     
+      
+  <center>
+    <div class="centralizado">
+
+
+
+    <div id="imagem1" class="image-container">
+            <img src="./Lua1.jpg.png" alt="Imagem 1" width="200px" height="200px">
+            
+    </div>
+          
+    <div id="imagem2" class="image-container">
+            <img src="./Lua2.jpg.png" alt="Imagem 2" width="200px" height="200px">
+      
+    </div>
+
+    <div id="imagem3" class="image-container">
+            <img src="./Lua3.jpg.png" alt="Imagem 3" width="200px" height="200px">
+
+    </div>
+
+    <div id="imagem4" class="image-container">
+            <img src="./Lua4.jpg.png" alt="Imagem 4" width="250px" height="200px">
+    
+    </div>
+
+   <div id="imagem5" class="image-container">
+            <img src="./Amor2.jpg" alt="Imagem 5" class="redondo" width="340px" height="600px">
+   </div>
+
+</div>
+ 
+
+
+
+  
+    <select id="image-select" onchange="toggleImage()">
+        <option value="none"></option>
+        <option value="imagem1">144p</option>
+        <option value="imagem2">240p</option>
+        <option value="imagem3">480p</option>
+        <option value="imagem4">720p</option>
+        <option value="imagem5">1080p</option>
+    </select>
+      
+  
+  </div>
+ </center>
+    
+</body>
+</html>
+  
